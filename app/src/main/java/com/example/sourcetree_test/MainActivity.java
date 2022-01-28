@@ -16,5 +16,8 @@ public class MainActivity extends AppCompatActivity {
         //Toast.makeText(this.getApplicationContext(), "Toast2 DRFN mac2", Toast.LENGTH_SHORT).show()
 
         //SourceTree commit& push > Toast2 주석 처리
+        
+        Toast.makeText(this.getApplicationContext(), "Toast3 GitHub", Toast.LENGTH_SHORT).show();
+        // Github 수정 > 커밋 체인지 하면 푸시도 되는지 확인
     }
 }
