@@ -16,5 +16,10 @@ public class MainActivity extends AppCompatActivity {
         //Toast.makeText(this.getApplicationContext(), "Toast2 DRFN mac2", Toast.LENGTH_SHORT).show()
 
         //SourceTree commit& push > Toast2 주석 처리
+        Toast.makeText(this.getApplicationContext(), "Toast3-1 GitHub", Toast.LENGTH_SHORT).show();
+        // Github 수정 > 커밋 체인지 하면 푸시도 되는지 확인
+
+        //풀하지 않고 깃허브에서 수정한 코드 그대로 가져오고 토스트 메시지만 3-1로 변경 커밋 시도 >>
+        //풀하지 않은 상태에서 안드로이드스튜디오에서 수정했더니 깃에서 커밋한 내용은 자동으로 브랜치 생성되서 분기점 발생
     }
 }
