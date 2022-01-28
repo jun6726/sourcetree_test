@@ -13,6 +13,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         Toast.makeText(this.getApplicationContext(), "Toast1 DRFN mac", Toast.LENGTH_SHORT).show();
-        Toast.makeText(this.getApplicationContext(), "Toast2 DRFN mac2", Toast.LENGTH_SHORT).show();
+        //Toast.makeText(this.getApplicationContext(), "Toast2 DRFN mac2", Toast.LENGTH_SHORT).show()
+
+        //SourceTree commit& push > Toast2 주석 처리
     }
 }
