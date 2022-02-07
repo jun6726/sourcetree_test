@@ -37,5 +37,7 @@ public class MainActivity extends AppCompatActivity {
         //내용 수정 후 풀하고 푸시하기
 
         //mergeTest 브랜치 생성
+        //mergeTest 브랜치 생성2
+
     }
 }
