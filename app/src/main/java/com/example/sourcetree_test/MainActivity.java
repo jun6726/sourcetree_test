@@ -16,7 +16,13 @@ public class MainActivity extends AppCompatActivity {
         //Toast.makeText(this.getApplicationContext(), "Toast2 DRFN mac2", Toast.LENGTH_SHORT).show()
 
         //SourceTree commit& push > Toast2 주석 처리
-        Toast.makeText(this.getApplicationContext(), "Toast3-1 GitHub", Toast.LENGTH_SHORT).show();
+
+
+        //병합을 위해 Toast 3-1을 삭제
+//<<<<<<< HEAD
+//        Toast.makeText(this.getApplicationContext(), "Toast3-1 GitHub", Toast.LENGTH_SHORT).show();
+
+
         // Github 수정 > 커밋 체인지 하면 푸시도 되는지 확인
 
         //풀하지 않고 깃허브에서 수정한 코드 그대로 가져오고 토스트 메시지만 3-1로 변경 커밋 시도 >>
@@ -35,8 +41,16 @@ public class MainActivity extends AppCompatActivity {
 
 
         //내용 수정 후 풀하고 푸시하기
+        
+        //병합을 위해 Toast 3-1을 삭제
+//=======
+
 
         //mergeTest 브랜치 생성
         //mergeTest 브랜치 생성2
+
+        Toast.makeText(this.getApplicationContext(), "Toast3 GitHub", Toast.LENGTH_SHORT).show();
+        // Github 수정 > 커밋 체인지 하면 푸시도 되는지 확인
+//>>>>>>> a79ffd09d037c7478e592a7f3590ddb1ae1cae7a
     }
 }
