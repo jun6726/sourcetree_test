@@ -35,5 +35,7 @@ public class MainActivity extends AppCompatActivity {
 
 
         //내용 수정 후 풀하고 푸시하기
+
+        //병합을 위해 Toast 3을 삭제
     }
 }
